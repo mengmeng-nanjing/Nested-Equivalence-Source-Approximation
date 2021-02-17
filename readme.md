@@ -1,6 +1,6 @@
 # Abstract
 
-This is the source codes for the nested equivalence source approximation (NESA) for multiscale electromagnetic (EM) simulations. It is employed to approximate the Green’s function matrix $G(r, r')=exp(-jk|r-r'|)/|r-r'|$ with NESA with a predetermined threshold. The approximation error is determined by the number of equivalence points. The computation complexities for low and high frequency EM problems are $O(N) $and $O(NlogN)$, respectively. Please see the reference for more details. It is easy to apply it to accelerate the existing method of moments (MoM) codes. 
+This is the source codes for the nested equivalence source approximation (NESA) for multiscale electromagnetic (EM) simulations. It is employed to approximate the Green’s function matrix G(r, r')=exp(-jk|r-r'|)/|r-r'|​ with NESA with a predetermined threshold. The approximation error is determined by the number of equivalence points. The computation complexities for low and high frequency EM problems are O(N) and O(NlogN)​, respectively. Please see the reference for more details. It is easy to apply it to accelerate the existing method of moments (MoM) codes. 
 
 # Reference
 
